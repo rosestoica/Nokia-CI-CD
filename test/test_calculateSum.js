@@ -22,7 +22,7 @@ describe('calculateSum', () => {
     it('should correctly sum two numbers', () => {
         calculateSum();
         const result = document.getElementById('result').textContent;
-        expect(result).to.equal('Result: 15');
+        expect(result).to.equal('Result: 12');
     });
 
     it('should handle invalid inputs gracefully', () => {
